@@ -12,7 +12,9 @@ export default function Home() {
 
           <div className="font-ProtestRiot absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 drop-shadow-md container text-6xl text-white mt-4 flex flex-col justify-center items-center">
             <div className="title">Divyanshu.</div>
-            <div className="tagline text-lg m-2">I'm from another planet.</div>
+            <div className="tagline text-lg m-2">
+              I&apos;m from another planet.
+            </div>
           </div>
 
           <div className="down-arrow text-8xl absolute bottom-0  font-ProtestRiot animate-bounce rotate-90">
@@ -47,11 +49,11 @@ export default function Home() {
             height={200}
           />
           <Balancer className="w-full text-center m-4">
-            Greetings, I'm Divyanshu Parihar, the bot maestro! Armed with 5+
-            years of Python and Node.js wizardry, I've conjured over 100
-            whimsical bots. Beyond the digital realm, I've woven my magic on
-            production websites, adding a touch of enchantment. Join me, and
-            let's turn your online aspirations into a comedy of code!
+            Greetings, I&apos;m Divyanshu Parihar, the bot maestro! Armed with
+            5+ years of Python and Node.js wizardry, I&apos;ve conjured over 100
+            whimsical bots. Beyond the digital realm, I&apos;ve woven my magic
+            on production websites, adding a touch of enchantment. Join me, and
+            let&apos;s turn your online aspirations into a comedy of code!
           </Balancer>
         </div>
         <div className="title text-4xl font-ProtestRiot pl-16">My Flex: </div>
