@@ -37,7 +37,7 @@ export default function Home() {
       {/*  section 2 */}
 
       <div className="font-ProtestRiot about-me w-screen h-full bg-white p-4 text-black px-16">
-        <div className="title text-8xl">
+        <div className="title text-2xl md:text-8xl">
           Ab<span className="underline">out me.</span>
         </div>
         <div className="description w-full text-2xl md:pl-16  mt-4 flex md:flex-row flex-col justify-center items-center m-2 ">
@@ -57,7 +57,7 @@ export default function Home() {
           </Balancer>
         </div>
         <div className="title text-4xl font-ProtestRiot pl-16">My Flex: </div>
-        <div className="companies flex  w-full h-1/2 px-4  items-center overflow-x-auto scroll-mx-44 md:flex-row">
+        <div className="companies flex  w-full h-full md:px-16  items-center overflow-x-auto scroll-mx-44 md:flex-row">
           <div className="container rounded-md py-4 w-full  ">
             <Link href="https://wallstbible-premium.com/">
               <Image
@@ -93,24 +93,24 @@ export default function Home() {
 
       {/* section 3 */}
 
-      <div className="title font-ProtestRiot w-screen h-screen text-8xl pl-16 py-2 ">
-        <div className=""> My services :</div>
+      <div className="title font-ProtestRiot w-screen h-screen text-8xl p-4 md:pl-16 py-2 ">
+        <div className="text-2xl md:text-8xl"> My services :</div>
         <br />
         <div className="text-4xl">
-          <div className="service pl-16 py-4">
+          <div className="service  py-4">
             <span className="text-pink-400 ">Next.js</span>: Full Stack Next.js
             App development.
           </div>
-          <div className="service pl-16 py-4">
+          <div className="service  py-4">
             <span className="text-pink-400">Web automation</span>: Automate your
             work on web.
           </div>
-          <div className="service pl-16 py-4">
+          <div className="service  py-4">
             <span className="text-pink-400">Bots</span>: Bots on almost all
             websites
             {"(ain't feel like mentioning them all)"}
           </div>
-          <div className="service pl-16 py-4">
+          <div className="service  py-4">
             <span className="text-pink-400">Consultancy</span>: I have googled
             some stuff for you. 😉
           </div>
