@@ -36,11 +36,11 @@ export default function Home() {
 
       {/*  section 2 */}
 
-      <div className="font-ProtestRiot about-me w-screen h-screen bg-white p-4 text-black">
+      <div className="font-ProtestRiot about-me w-screen h-full bg-white p-4 text-black px-16">
         <div className="title text-8xl">
           Ab<span className="underline">out me.</span>
         </div>
-        <div className="description w-full text-2xl pl-16  mt-4 flex md:flex-row flex-col justify-center items-center m-2 ">
+        <div className="description w-full text-2xl md:pl-16  mt-4 flex md:flex-row flex-col justify-center items-center m-2 ">
           <Image
             className="rounded-full"
             alt="avatar-one"
@@ -57,22 +57,23 @@ export default function Home() {
           </Balancer>
         </div>
         <div className="title text-4xl font-ProtestRiot pl-16">My Flex: </div>
-        <div className="companies flex items-center overflow-x-auto scroll-mx-44 px-16 pt-8">
-          <div className="container rounded-md px-2 ">
+        <div className="companies flex  w-full h-1/2 px-4  items-center overflow-x-auto scroll-mx-44 md:flex-row">
+          <div className="container rounded-md py-4 w-full  ">
             <Link href="https://wallstbible-premium.com/">
               <Image
-                width={300}
-                height={400}
+                width={200}
+                height={200}
                 alt="bull-grey"
                 src="/bull_grey_logo.svg"
+                className="w-28"
               />
             </Link>
           </div>
 
-          <div className="container rounded-md px-2">
+          <div className="container rounded-md px-2 py-4 ">
             <Link href="https://scale.com/">
               <svg
-                className=" border text-blue-950 border-red-400 fill-current"
+                className="text-blue-950 w-28 "
                 viewBox="0 0 489 157"
                 width={300}
                 height={200}
@@ -82,7 +83,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="container rounded-md px-2 ">
+          <div className="container rounded-md px-2 py-4">
             <Link href="https://www.wordontheblock.com/">
               <Image src="/wotb.png" alt="wotb" width={400} height={400} />
             </Link>
@@ -93,7 +94,7 @@ export default function Home() {
       {/* section 3 */}
 
       <div className="title font-ProtestRiot w-screen h-screen text-8xl pl-16 py-2 ">
-        <div className="">Our services:</div>
+        <div className=""> My services :</div>
         <br />
         <div className="text-4xl">
           <div className="service pl-16 py-4">
