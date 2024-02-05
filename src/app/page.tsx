@@ -56,9 +56,9 @@ export default function Home() {
             let&apos;s turn your online aspirations into a comedy of code!
           </Balancer>
         </div>
-        <div className="title text-4xl font-ProtestRiot pl-16">My Flex: </div>
-        <div className="companies flex  w-full h-full md:px-16  items-center overflow-x-auto scroll-mx-44 md:flex-row">
-          <div className="container rounded-md py-4 w-full  ">
+        <div className="title text-4xl font-ProtestRiot pl-16 ">My Flex: </div>
+        <div className="companies flex   w-full h-full md:px-16  items-center overflow-x-auto scroll-mx-44 md:flex-row">
+          <div className="container rounded-md md:py-4 w-full  ">
             <Link href="https://wallstbible-premium.com/">
               <Image
                 width={200}
@@ -93,8 +93,8 @@ export default function Home() {
 
       {/* section 3 */}
 
-      <div className="title font-ProtestRiot w-screen h-screen text-8xl p-4 md:pl-16 py-2 ">
-        <div className="text-2xl md:text-8xl"> My services :</div>
+      <div className="title font-ProtestRiot w-screen h-screen  p-4 md:pl-16 py-2 ">
+        <div className="text-5xl md:text-8xl"> My services :</div>
         <br />
         <div className="text-4xl">
           <div className="service  py-4">
